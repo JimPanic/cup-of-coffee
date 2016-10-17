@@ -1,0 +1,25 @@
+{
+  "name": "cup-of-coffee",
+  "version": "1.0.0",
+  "description": "This is an educational endeavor to teach me a thing or two about compilers and coffeescript and JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimPanic/cup-of-coffee.git"
+  },
+  "keywords": [
+    "coffee"
+  ],
+  "author": "Alexander Pánek <alexander@panek.work>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JimPanic/cup-of-coffee/issues"
+  },
+  "homepage": "https://github.com/JimPanic/cup-of-coffee#readme",
+  "dependencies": {
+    "fundament": "^1.0.1"
+  }
+}
