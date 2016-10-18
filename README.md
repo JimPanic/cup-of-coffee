@@ -2,9 +2,9 @@
 ```coffee
 # Let the lexer analyse itself.
 fs     = require 'fs'
-coffee = require './src/new_lexer'
+coffee = require './src/lexer'
 
-filename = 'src/new_lexer'
+filename = 'src/lexer'
 code     = fs.readFileSync("#{filename}.coffee").toString()
 tokens   = coffee.lexer code, filename
 
